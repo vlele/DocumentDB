@@ -1,0 +1,6 @@
+﻿{
+    "HOST": "https://aisdemodocdbstore.documents.azure.com:443/",
+    "AUTH_KEY": "xjWUXgw7D9Q6O8dM6j72JNl21fAui3wqEDYJq9gpsU6cZL9A4djSiuQ7V5oeqP2wPPP+yWsfw/PchrPn2F0jWA==",
+    "DATABASE": "ToDoList",
+    "COLLECTION": "Items"
+}

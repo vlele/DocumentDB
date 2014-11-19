@@ -1,0 +1,20 @@
+{
+    "environmentSettings": {
+        "webSite": {
+            "name": "ToDoWebApp0171",
+            "location": "East US"
+        },
+        "databases": [
+            {
+                "connectionStringName": "",
+                "databaseName": "",
+                "serverName": "",
+                "user": "",
+                "password": "",
+                "edition": "",
+                "size": "",
+                "collation": ""
+            }
+        ]
+    }
+}
