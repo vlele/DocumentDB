@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="UserLoginLogout" Id="2061da20-baba-462c-bd35-6811c3186bfc" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.731b907d-7aaf-4037-b44c-f0e02822313f.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="afe9ee42-d8a8-45dc-a2e7-07a7559514d6" Version="1.1" Url="{{FantasyDraftSite}}/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="Home" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="d01e9130-8319-42e6-a7d5-f8ea2ff8263b" Version="1.1" Url="{{TypeKitSite}}/c/7e1866/1w;myriad-pro,2,bzK:R:i4,bzJ:R:i7,bzN:R:n4,bzH:R:n7;myriad-pro-condensed,2,bz2:R:i4,bz1:R:i7,byy:R:n3,byx:R:n4,byw:R:n7/d" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="3bb2a6e53c9684ffdc9a98fe1e5b2a62e81888f130cbee849ebb5c17758c3af447acc5d6357f130d490ba8ecaf428315ca01589f100b5ea3935ae74c39e26f1b91869b4c356d0ad78a7d300e208869b05ab5e09f663ae32a6df0c7cdc138311f3ff3356463dca42bf41474cdde4b5e22c243070b83e092cce1c3d176e269c92c9cac9d8d011c4fdad86e61d5f16d4e5b4cfa703dbbe0cdd43e9d4307ff13b79c0636943732b40dc8e5250195626139610cb8f91aae579f21d75ab442ba8b0c69a7ff4c4d41fa5b90a9926eb95f7535ba15de575c0fe4373b76352501be63e1b33d443d86dfa68eb759a58c90cf336649ac51295a8dd5121f99600085b920a0adbc85376fb05e955ae95cf5756aeec95be972a9978edf7f57d38e2a7c" RecordedValue="3bb2a6e53c9684ffdc9a98fe1e5b2a62e81888f130cbee849ebb5c17758c3af447acc5d6357f130d490ba8ecaf428315ca01589f100b5ea3935ae74c39e26f1b91869b4c356d0ad78a7d300e208869b05ab5e09f663ae32a6df0c7cdc138311f3ff3356463dca42bf41474cdde4b5e22c243070b83e092cce1c3d176e269c92c9cac9d8d011c4fdad86e61d5f16d4e5b4cfa703dbbe0cdd43e9d4307ff13b79c0636943732b40dc8e5250195626139610cb8f91aae579f21d75ab442ba8b0c69a7ff4c4d41fa5b90a9926eb95f7535ba15de575c0fe4373b76352501be63e1b33d443d86dfa68eb759a58c90cf336649ac51295a8dd5121f99600085b920a0adbc85376fb05e955ae95cf5756aeec95be972a9978edf7f57d38e2a7c" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="98a2fe59-2bf6-435c-82a3-de0f7779c481" Version="1.1" Url="{{ContentSite}}/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="96efef65-1bd0-4d96-9e04-1f8cfcdfb6ca" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-social/ss-social-circle.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="389e5295-4005-4e73-9fed-df9901fd9971" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-symbolicons-block/ss-symbolicons-block.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="2a351145-a609-4d49-9356-ea8aa50eebea" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-standard/ss-standard.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="a7461f25-d05b-433d-92c0-3cb7ec91a947" Version="1.1" Url="{{YouTubeSite}}/feeds/api/videos/89L5aEgKlX8" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="v" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="alt" Value="json" RecordedValue="json" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="jQuery111106298001332072429_1417007906613" RecordedValue="jQuery111106298001332072429_1417007906613" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="_" Value="1417007906614" RecordedValue="1417007906614" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4566.rel" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?rel=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4567.showinfo" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;showinfo=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4568.wmode" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wmode=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="357a3e99-4277-42b7-95d6-ccf6b61641b3" Version="1.1" Url="{{FantasyDraftSite}}/Registration/AjaxSignIn" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="SignIn" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+      </Headers>
+      <StringHttpBody ContentType="application/json; charset=utf-8" InsertByteOrderMark="False">ewAiAHUAcwBlAHIAbgBhAG0AZQAiADoAIgB7AHsAVQBzAGUAcgBzAC4AVQBzAGUAcgBJAG4AZgBvAHIAbQBhAHQAaQBvAG4AIwBjAHMAdgAuAFUAcwBlAHIATgBhAG0AZQB9AH0AIgAsACIAcABhAHMAcwAiADoAIgB7AHsAVQBzAGUAcgBzAC4AVQBzAGUAcgBJAG4AZgBvAHIAbQBhAHQAaQBvAG4AIwBjAHMAdgAuAFAAYQBzAHMAdwBvAHIAZAB9AH0AIgAsACIAcgBlAG0AZQBtAGIAZQByAE0AZQAiADoAZgBhAGwAcwBlACwAIgByAGUAdAB1AHIAbgBVAHIAbAAiADoAIgAvACIAfQA=</StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="a240e8e6-6869-4fd2-9a53-150d85265394" Version="1.1" Url="{{FantasyDraftSite}}/profile" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="Profile" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="a6534516-7b86-42a4-bdfc-79d710006188" Version="1.1" Url="{{TypeKitSite}}/c/7e1866/1w;myriad-pro,2,bzK:R:i4,bzJ:R:i7,bzN:R:n4,bzH:R:n7;myriad-pro-condensed,2,bz2:R:i4,bz1:R:i7,byy:R:n3,byx:R:n4,byw:R:n7/d" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/profile" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="3bb2a6e53c9684ffdc9a98fe1e5b2a62e81888f130cbee849ebb5c17758c3af447acc5d6357f130d490ba8ecaf428315ca01589f100b5ea3935ae74c39e26f1b91869b4c356d0ad78a7d300e208869b05ab5e09f663ae32a6df0c7cdc138311f3ff3356463dca42bf41474cdde4b5e22c243070b83e092cce1c3d176e269c92c9cac9d8d011c4fdad86e61d5f16d4e5b4cfa703dbbe0cdd43e9d4307ff13b79c0636943732b40dc8e5250195626139610cb8f91aae579f21d75ab442ba8b0c69a7ff4c4d41fa5b90a9926eb95f7535ba15de575c0fe4373b76352501be63e1b33d443d86dfa68eb759a58c90cf336649ac51295a8dd5121f99600085b920a0adbc85376fb05e955ae95cf5756aeec95be972a9978edf7f57d38e2a7c" RecordedValue="3bb2a6e53c9684ffdc9a98fe1e5b2a62e81888f130cbee849ebb5c17758c3af447acc5d6357f130d490ba8ecaf428315ca01589f100b5ea3935ae74c39e26f1b91869b4c356d0ad78a7d300e208869b05ab5e09f663ae32a6df0c7cdc138311f3ff3356463dca42bf41474cdde4b5e22c243070b83e092cce1c3d176e269c92c9cac9d8d011c4fdad86e61d5f16d4e5b4cfa703dbbe0cdd43e9d4307ff13b79c0636943732b40dc8e5250195626139610cb8f91aae579f21d75ab442ba8b0c69a7ff4c4d41fa5b90a9926eb95f7535ba15de575c0fe4373b76352501be63e1b33d443d86dfa68eb759a58c90cf336649ac51295a8dd5121f99600085b920a0adbc85376fb05e955ae95cf5756aeec95be972a9978edf7f57d38e2a7c" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="acef42b0-389b-4779-9fad-55167123767e" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-social/ss-social-circle.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/profile" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="58bece66-644a-4b4c-8aef-ac3302c4a902" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-symbolicons-block/ss-symbolicons-block.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/profile" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="8b7c668e-b0a5-4ecf-bd09-0502d2e202c3" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-standard/ss-standard.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/profile" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9eab1b29-a062-48b4-8690-b420a95bb8c0" Version="1.1" Url="{{ContentSite}}/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/profile" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="66a09d71-4e24-47fd-a4f1-5d2791d43835" Version="1.1" Url="{{FantasyDraftSite}}/Profile/GetCountryStates/US" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/profile" />
+          </Headers>
+          <StringHttpBody ContentType="" InsertByteOrderMark="False">
+          </StringHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6606913e-cdc9-40d5-a9dd-7c041e7d7864" Version="1.1" Url="{{FantasyDraftSite}}/Registration/LogOff" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="{{FantasyDraftSite}}/" ReportingName="LogOff" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="a48acc55-2678-4587-99b8-e76daa0c7809" Version="1.1" Url="{{TypeKitSite}}/c/7e1866/1w;myriad-pro,2,bzK:R:i4,bzJ:R:i7,bzN:R:n4,bzH:R:n7;myriad-pro-condensed,2,bz2:R:i4,bz1:R:i7,byy:R:n3,byx:R:n4,byw:R:n7/d" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="3bb2a6e53c9684ffdc9a98fe1e5b2a62e81888f130cbee849ebb5c17758c3af447acc5d6357f130d490ba8ecaf428315ca01589f100b5ea3935ae74c39e26f1b91869b4c356d0ad78a7d300e208869b05ab5e09f663ae32a6df0c7cdc138311f3ff3356463dca42bf41474cdde4b5e22c243070b83e092cce1c3d176e269c92c9cac9d8d011c4fdad86e61d5f16d4e5b4cfa703dbbe0cdd43e9d4307ff13b79c0636943732b40dc8e5250195626139610cb8f91aae579f21d75ab442ba8b0c69a7ff4c4d41fa5b90a9926eb95f7535ba15de575c0fe4373b76352501be63e1b33d443d86dfa68eb759a58c90cf336649ac51295a8dd5121f99600085b920a0adbc85376fb05e955ae95cf5756aeec95be972a9978edf7f57d38e2a7c" RecordedValue="3bb2a6e53c9684ffdc9a98fe1e5b2a62e81888f130cbee849ebb5c17758c3af447acc5d6357f130d490ba8ecaf428315ca01589f100b5ea3935ae74c39e26f1b91869b4c356d0ad78a7d300e208869b05ab5e09f663ae32a6df0c7cdc138311f3ff3356463dca42bf41474cdde4b5e22c243070b83e092cce1c3d176e269c92c9cac9d8d011c4fdad86e61d5f16d4e5b4cfa703dbbe0cdd43e9d4307ff13b79c0636943732b40dc8e5250195626139610cb8f91aae579f21d75ab442ba8b0c69a7ff4c4d41fa5b90a9926eb95f7535ba15de575c0fe4373b76352501be63e1b33d443d86dfa68eb759a58c90cf336649ac51295a8dd5121f99600085b920a0adbc85376fb05e955ae95cf5756aeec95be972a9978edf7f57d38e2a7c" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="13ab3c5b-50ba-4f5b-9162-b61880e3f642" Version="1.1" Url="{{ContentSite}}/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4d337f38-ee6f-4596-b40c-ef6555540a2f" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-social/ss-social-circle.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="84787142-9d04-42ae-ba83-43591e305713" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-symbolicons-block/ss-symbolicons-block.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="22dda8c4-d5ff-4f2f-819b-71dd987e3c21" Version="1.1" Url="{{FantasyDraftSite}}/Content/fonts/ss-standard/ss-standard.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="{{FantasyDraftSite}}/" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="{{FantasyDraftSite}}/profile" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4814.rel" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?rel=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4815.showinfo" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;showinfo=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4816.wmode" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wmode=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+  </Items>
+  <DataSources>
+    <DataSource Name="Users" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\..\Data\UserInformation.csv">
+      <Tables>
+        <DataSourceTable Name="UserInformation#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ContextParameters>
+    <ContextParameter Name="FantasyDraftSite" Value="https://beta.fantasydraft.com" />
+    <ContextParameter Name="TypeKitSite" Value="https://use.typekit.net" />
+    <ContextParameter Name="ContentSite" Value="https://netdna.bootstrapcdn.com" />
+    <ContextParameter Name="YouTubeSite" Value="https://gdata.youtube.com" />
+  </ContextParameters>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
